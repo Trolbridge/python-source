@@ -67,7 +67,7 @@ def hello(to='world'): # default to 'world' called without argument
 def hello_world():
     return print('hello world')
 
-# hello_world() 
+hello_world() 
 
 def test_return():
     x = int(input("What number to square? "))
@@ -79,7 +79,7 @@ def squared(n: int) -> int:
     # return n ** 2
     return pow(n, 2)
 
-test_return()
+# test_return()
     
 
 
